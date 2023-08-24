@@ -55,3 +55,67 @@ nav{
     border-bottom: 2px solid crimson;
     color: crimson;
 }
+.home{
+    /* border: 1px solid salmon; */
+    height: 90vh;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#right-container{
+    display: flex;
+    justify-content: flex-end ;
+
+}#right-container > img{
+    margin-right: 8vmax;
+    filter: drop-shadow(0 0 10px);
+}
+#left-container {
+    display: flex;
+    flex-direction: column;
+padding: 3vmax;
+box-sizing: border-box;
+justify-content: center;
+}
+#left-container h1{
+    font-size: 4.5vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-top: -5%;
+    
+}
+#left-container h2{
+    font-size: 1.9vmax;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#left-container p{
+    font-size: 1vmax; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    letter-spacing: .5px;
+    
+}
+#left-container > button{
+    width: 11vmax;
+    padding: .6vmax;
+    border-radius: 2vmax;
+    border: none;
+    background-color: crimson;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: .8vw;
+    
+}
+#left-container > button:hover{
+    background-color: rgb(171, 35, 62);
+
+}
+
